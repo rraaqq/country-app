@@ -15,7 +15,7 @@ export function deleteCountry(id) {
   return {
     type: DELETE_COUNTRY,
     id
-  };
+  }
 }
 
 export function getCountry(id) {
